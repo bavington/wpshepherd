@@ -9,7 +9,7 @@
         $(document).ready(function(){
     /*  Install a fresh copy of Wordpress */
         if(selId == 'inst'){
-        $('#i').html('<img src="images/arrows16.gif"/>');        
+        $('#i').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.get('index_inst.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -19,7 +19,7 @@
 				});
     /*  Develop the websites */
         }else if(selId == 'dev'){
-        $('#d').html('<img src="images/arrows16.gif"/>');        
+        $('#d').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.get('index_dev.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -29,7 +29,7 @@
 				});
     /*  Website back-ups  */
         }else if(selId == 'bac'){
-        $('#b').html('<img src="images/arrows16.gif"/>');        
+        $('#b').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.get('index_bac.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -39,7 +39,7 @@
 				});
     /*  Back-up this code  */                
         }else if(selId == 'admin_bac'){
-        $('#a_b').html('<img src="images/arrows16.gif"/>');        
+        $('#a_b').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.get('index_admin_bac.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -49,7 +49,7 @@
 				});        
     /*  Package the site  */                
         }else if(selId == 'pac'){
-        $('#p').html('<img src="images/arrows16.gif"/>');        
+        $('#p').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.get('index_pac.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -59,7 +59,7 @@
 				});        
     /*  Remove a the site  */                
         }else if(selId == 'rem'){
-        $('#r').html('<img src="images/arrows16.gif"/>');        
+        $('#r').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.get('index_rem.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -69,7 +69,7 @@
 				}); 
     /*  Admin settings for localhost on computer  */               
         }else if(selId == 'admin_set'){
-        $('#a_s').html('<img src="images/arrows16.gif"/>');        
+        $('#a_s').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.post('admin_one.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -79,7 +79,7 @@
 				});				
     /*  Admin reset settings for localhost on computer  */               
         }else if(selId == 'admin_res'){
-        $('#a_r').html('<img src="images/arrows16.gif"/>');        
+        $('#a_r').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.post('index_admin_res.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -89,7 +89,7 @@
 				});				
     /*  Admin display settings for localhost on computer  */               
         }else if(selId == 'admin_dis'){
-        $('#a_d').html('<img src="images/arrows16.gif"/>');        
+        $('#a_d').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				$.post('index_admin_dis.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -99,7 +99,7 @@
 				});
     /*  Download the latest git installation file  */        				
         }else if(selId == 'git_down'){
-        $('#g_d').html('<img src="images/arrows16.gif"/>');        
+        $('#g_d').html('<img src="../../jscript/images/arrows16.gif"/>');        
 
 				$.post('git_down.php', {}, function(result, status){				
 						if(status == 'success'){
@@ -120,7 +120,7 @@
        if(web != ""){        
           $(document).ready(function(){
 
-          $('#i').html('<img src="images/arrows16.gif"/>');        
+          $('#i').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('inst_one.php', {web:web}, function(result, status){          				
 						  if(status == 'success'){
@@ -140,7 +140,7 @@
                
           $(document).ready(function(){
  
-          $('#i').html('<img src="images/arrows16.gif"/>');        
+          $('#i').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('inst_two.php',  function(result, status){                                        				
                   
@@ -158,7 +158,7 @@
                
           $(document).ready(function(){
  
-          $('#i').html('<img src="images/arrows16.gif"/>');        
+          $('#i').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('inst_three.php', {web:web}, function(result, status){                                        				
 
@@ -177,7 +177,7 @@
               
           $(document).ready(function(){
 
-          $('#i').html('<img src="images/arrows16.gif"/>');        
+          $('#i').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('inst_one.php', {}, function(result, status){				
 						  if(status == 'success'){
@@ -195,7 +195,7 @@
  
           $(document).ready(function(){
 
-          $('#r').html('<img src="images/arrows16.gif"/>');        
+          $('#r').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('index_rem.php', {}, function(result, status){				
 						  if(status == 'success'){
@@ -213,7 +213,7 @@
  
           $(document).ready(function(){
 
-          $('#r').html('<img src="images/arrows16.gif"/>');        
+          $('#r').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('rem_one.php', {web:web}, function(result, status){				
 						  if(status == 'success'){
@@ -230,7 +230,7 @@
              
           $(document).ready(function(){
 
-          $('#r').html('<img src="images/arrows16.gif"/>');        
+          $('#r').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('rem_two.php', {web:web}, function(result, status){				
 						  if(status == 'success'){
@@ -257,7 +257,7 @@
  
             $(document).ready(function(){
 
-            $('#a_s').html('<img src="images/arrows16.gif"/>');        
+            $('#a_s').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				    $.post('admin_two.php', {host:host, user:user, pass:pass}, function(result, status){				
 						    if(status == 'success'){
@@ -310,7 +310,7 @@
              
           $(document).ready(function(){
 
-          $('#d').html('<img src="images/arrows16.gif"/>');        
+          $('#d').html('<img src="../../jscript/images/arrows16.gif"/>');        
 			  
 				  $.post('child_one.php', {web:web, theme:theme}, function(result, status){				
 						  if(status == 'success'){

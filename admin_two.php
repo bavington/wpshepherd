@@ -52,7 +52,7 @@
     
     fwrite($fh, $stringData);
     
-    $stringData = "\techo '<button type=\"button\" onclick=\"inst_one()\">Fresh Install!</button>';\n\n";
+    $stringData = "\techo '<button type=\"button\" class=\"btn btn-lg btn-success\" onclick=\"inst_one()\">Fresh Install!</button>';\n\n";
     
     fwrite($fh, $stringData);                           
         

@@ -21,7 +21,7 @@
 	echo '<input id="web" type="text" name="web" placeholder="Type Name Here" required><br/><br/>';
 
 
-	echo '<button type="button" onclick="inst_one()">Fresh Install!</button>';
+	echo '<button type="button"  class="btn btn-lg btn-success" onclick="inst_one()">Fresh Install!</button>';
 
 	echo '</div>';
 
